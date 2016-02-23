@@ -95,7 +95,6 @@ public class StartActivity extends Activity {
         public void onServiceConnected(ComponentName name, IBinder service) {
             Log.d(BaseService.TAG," onServiceConnected...");
             ((BaseService.MyIBinder)service).download();
-            //测试提交
         }
 
         @Override
