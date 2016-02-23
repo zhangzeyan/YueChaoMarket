@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Market/Market.iml" filepath="$PROJECT_DIR$/Market/Market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YueChaoMarket.iml" filepath="$PROJECT_DIR$/YueChaoMarket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remoteservice/remoteservice.iml" filepath="$PROJECT_DIR$/remoteservice/remoteservice.iml" />
+    </modules>
+  </component>
+</project>

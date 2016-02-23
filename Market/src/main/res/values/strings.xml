@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YueChaoMarket</string>
+
+    <string name="hello_world">name</string>
+    <string name="action_settings">setting</string>
+    <string name="sex">sex</string>
+    <string name="age">age</string>
+    <string name="birth">birth</string>
+
+</resources>
