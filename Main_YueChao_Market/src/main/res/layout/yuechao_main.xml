@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16px"
+    android:paddingLeft="16px"
+    android:paddingRight="16px"
+    android:paddingTop="16px"
+    tools:context="com.ycz.yuechaomarket.activity.MainActivity">
+
+
+    <TextView
+        style="@style/myStyle"
+        android:text="1.界面"
+        android:id="@+id/viewTxt" />
+
+
+    <TextView
+        style="@style/myStyle"
+        android:text="2.数据"
+        android:id="@+id/dataTxt" />
+
+
+    <TextView
+        style="@style/myStyle"
+        android:text="3.网络"
+        android:id="@+id/networkTxt" />
+
+    <TextView
+        style="@style/myStyle"
+        android:text="4.设计模式"
+        android:id="@+id/modelTxt" />
+
+
+</LinearLayout>
