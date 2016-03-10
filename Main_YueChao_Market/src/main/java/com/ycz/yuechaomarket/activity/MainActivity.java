@@ -25,6 +25,18 @@ public class MainActivity extends AutoLayoutActivity {
 
     @Click({R.id.viewTxt,R.id.dataTxt})
     public void myClick(View view){
-        startActivity(new Intent(this,ViewActivity_.class));
+        switch (view.getId()){
+            case R.id.viewTxt:
+                startActivity(new Intent(this,ViewActivity_.class));
+                break;
+            case R.id.dataTxt:
+                startActivity(new Intent(this,ViewActivity_.class));
+                break;
+            case R.id.networkTxt:
+                break;
+            case R.id.modelTxt:
+                break;
+        }
+
     }
 }
