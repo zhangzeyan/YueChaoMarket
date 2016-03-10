@@ -10,7 +10,7 @@ import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.ycz.yuechaomarket.R;
-import com.ycz.yuechaomarket.activity.StartActivity;
+import com.ycz.yuechaomarket.activity.ServiceSample;
 
 /**
  * Created by zhangzeyan on 15/10/10.
@@ -25,7 +25,7 @@ public class BaseService extends Service {
         super.onCreate();
         Notification notification = new Notification(R.mipmap.ic_launcher,
                 "有通知到来", System.currentTimeMillis());
-        Intent notificationIntent = new Intent(this, StartActivity.class);
+        Intent notificationIntent = new Intent(this, ServiceSample.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,
                 notificationIntent, 0);
         RemoteViews remoteView = new RemoteViews(getPackageName(),R.layout.notification_view);

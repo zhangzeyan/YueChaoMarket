@@ -38,7 +38,7 @@ public class TestAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return LayoutInflater.from(context).inflate(R.layout.activity_start,null);
+        return LayoutInflater.from(context).inflate(R.layout.yuechao_start,null);
     }
 
     public class ViewHolder {

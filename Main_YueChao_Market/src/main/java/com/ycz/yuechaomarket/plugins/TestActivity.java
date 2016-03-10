@@ -22,7 +22,7 @@ public class TestActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.yuechao_start);
     }
 
     private void initView() {
